@@ -1,0 +1,82 @@
+body {
+	background-color: #5cf7f7;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+  }
+  
+  .profile-pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 20px;
+  }
+  
+  .profile-pic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .profile-info {
+	text-align: center;
+  }
+  
+  .profile-info h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+	font-size: 24px;
+	font-style: italic;
+  }
+  footer {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px 0;
+	background-color: #47e3e3;
+	color: #666;
+	border-top: 1px solid #ccc;
+	border-bottom: none;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  footer span {
+	border-bottom: 1px solid #666;
+  }
+  .social-media {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+  
+/* Add some basic styles for the quote element */
+#quote {
+	font-size: 1.5em;
+	margin: 0.5em 0;
+	opacity: 0;
+	transition: opacity 1s ease-out;
+  }
+  
+  /* Add a class to the quote element when it's being typed */
+  #quote.typing {
+	opacity: 1;
+  }
+  
+  /* Define a keyframe animation for the typing effect */
+  @keyframes typing {
+	from { width: 0; }
+	to { width: 100%; }
+  }
+  
+
+  
